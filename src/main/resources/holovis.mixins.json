@@ -1,0 +1,7 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "pl.holovis.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": ["ClientWorldMixin", "SkyRenderingMixin", "BackgroundRendererMixin", "SkinMixin"]
+}

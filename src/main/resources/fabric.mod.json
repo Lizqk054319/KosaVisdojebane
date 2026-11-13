@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "holovis",
+  "version": "${version}",
+  "name": "KosaVisuals",
+  "description": "KosaVisuals: menu (Prawy Shift), hitboxy, TargetHUD, Kill Effect, Spotify, Custom Sky.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["holovis.mixins.json"],
+  "entrypoints": { "client": ["pl.holovis.HoloVisClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.10",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
